@@ -1,0 +1,39 @@
+PORTFOLIO · Tomás Estévez
+=========================
+
+Cómo usarlo
+  1. Descomprimí el zip y copiá TODO sobre tu proyecto (reemplaza index.html y js/, y suma las carpetas nuevas).
+  2. Tus carpetas images/, videos/ y docs/ siguen siendo tuyas: este zip solo AGREGA archivos nuevos dentro de ellas
+     (images/gifs, images/posters y 4 videos de Vagari). No borra nada tuyo.
+  3. Recargá con Ctrl+F5.
+
+Archivos NUEVOS que trae el zip
+  images/gifs/        pikachu, mario, animal, sonic, miku (WebP animado sin fondo)
+  images/posters/     vagari_branding, vagari_simbolos, vagari_web, vagari_tele (miniaturas)
+  videos/             vagari_branding, vagari_simbolos, vagari_web, vagari_tele (comprimidos para web)
+
+Archivos TUYOS que la página sigue usando (no vienen en el zip)
+  images/tomas.webp, images/filo-news.jpg, images/logos/*.png (photoshop, figma, illustrator, canva, after-effects, capcut)
+  videos/video1.mp4, video3.mp4, reel1.mp4, reel3.mp4, animacion.mp4, realidad_aumentada.mp4,
+  videos/visuales_interactivos.mp4, videos/final.mp4 (fondo del cierre)
+
+Ya NO se usan (los podés borrar si querés)
+  images/mockup-desktop.png, images/vagari-1..4.jpg, images/newsletter-1.jpg, docs/branding.pdf,
+  videos/video2.mp4, videos/reel2.mp4, videos/visuales_taller_tele.mp4
+
+Miniaturas (posters) pendientes
+  La página pide images/posters/<nombre>.jpg para: video1, video3, reel1, reel3, animacion, realidad_aumentada,
+  visuales_interactivos. Mientras no existan, el navegador muestra el primer cuadro del video, así que no se ve negro.
+  Para crearlas: ejecutá crear_posters.bat (necesita ffmpeg) o mandame esos videos.
+
+Dónde tocar cosas
+  index.html        textos, estructura y estilos
+  js/home.js        Game Boy
+  js/musica.js      las 3 canciones de 30 s
+  js/logos-gb.js    logos de los cartuchos
+  js/foto-gb.js     tu foto estilo Game Boy Color
+  js/filo-pc.js     mini compu de Filo News (cuánto gira y cuándo se desliza el mockup)
+  js/extra.js       animaciones (título, aparición al scrollear, header, estela, videos)
+
+Créditos
+  Modelo 3D "Game Boy Challenge" de LisHard (CC BY 4.0), vía Sketchfab (figura al pie de la página).
